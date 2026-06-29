@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 const services = [
   {
-    title: "Жилые интерьеры",
-    description: "Полное преображение дома с учётом вашего образа жизни. От отдельных комнат до целых резиденций.",
+    title: "Умная маршрутизация",
+    description: "ИИ подбирает оптимальный путь груза с учётом сроков, стоимости и рисков. Авиа, море, авто и железная дорога в одном решении.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -15,8 +15,8 @@ const services = [
     ),
   },
   {
-    title: "Планировка",
-    description: "Продуманные решения, создающие естественный поток и функциональные зоны для жизни, работы и отдыха.",
+    title: "Отслеживание в реальном времени",
+    description: "Видите местоположение груза на каждом этапе. Прозрачный статус и точный прогноз прибытия в личном кабинете.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -28,8 +28,8 @@ const services = [
     ),
   },
   {
-    title: "Подбор материалов",
-    description: "Натуральные материалы и авторские предметы ручной работы, которые красиво стареют и рассказывают историю.",
+    title: "Таможенное оформление",
+    description: "Берём на себя все документы и формальности. Автоматизированная подготовка деклараций ускоряет прохождение границ.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -41,8 +41,8 @@ const services = [
     ),
   },
   {
-    title: "Светодизайн",
-    description: "Многоуровневое освещение, меняющееся в течение дня, создающее атмосферу и поддерживающее благополучие.",
+    title: "Прогноз и аналитика",
+    description: "Предсказываем задержки до того, как они случатся. Аналитика расходов помогает оптимизировать вашу цепочку поставок.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -86,14 +86,14 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            Наши услуги
+            Возможности платформы
           </p>
           <h2
             className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground text-balance transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Что мы делаем
+            Что умеет платформа
           </h2>
         </div>
 

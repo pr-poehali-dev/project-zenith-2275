@@ -66,12 +66,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom Japandi colors
+				// Custom tokens
 				sand: 'hsl(var(--sand))',
 				sage: 'hsl(var(--sage))',
 				terracotta: 'hsl(var(--terracotta))',
 				indigo: 'hsl(var(--indigo))',
 				stone: 'hsl(var(--stone))',
+				gold: '#d4af37',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

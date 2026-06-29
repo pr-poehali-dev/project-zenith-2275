@@ -78,6 +78,12 @@ export function Contact() {
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">География</p>
                 <p className="text-foreground">Более 120 стран мира</p>
               </div>
+              <div>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Телефон</p>
+                <a href="tel:+79145707006" className="text-gold hover:text-gold/80 transition-colors text-lg font-medium tracking-wide">
+                  +7 (914) 570-70-06
+                </a>
+              </div>
             </div>
           </div>
 
@@ -97,7 +103,7 @@ export function Contact() {
                   id="name"
                   value={formState.name}
                   onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-sage focus:outline-none transition-colors"
+                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-gold focus:outline-none transition-colors"
                   placeholder="Ваше имя"
                   required
                 />
@@ -111,7 +117,7 @@ export function Contact() {
                   id="email"
                   value={formState.email}
                   onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-sage focus:outline-none transition-colors"
+                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-gold focus:outline-none transition-colors"
                   placeholder="ваш@email.com"
                   required
                 />
@@ -125,14 +131,14 @@ export function Contact() {
                   value={formState.message}
                   onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                   rows={4}
-                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-sage focus:outline-none transition-colors resize-none"
+                  className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-gold focus:outline-none transition-colors resize-none"
                   placeholder="Опишите груз, откуда и куда нужно доставить..."
                   required
                 />
               </div>
               <button
                 type="submit"
-                className="group inline-flex items-center gap-3 px-8 py-4 bg-sage text-primary-foreground text-sm tracking-widest uppercase hover:bg-sage/90 transition-all duration-500"
+                className="group inline-flex items-center gap-3 px-8 py-4 bg-gold text-[#060d1f] text-sm tracking-widest uppercase font-semibold hover:bg-gold/90 transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)]"
               >
                 Отправить
                 <svg

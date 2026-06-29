@@ -102,15 +102,15 @@ export function Services() {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className={`group bg-background p-10 lg:p-14 transition-all duration-1000 hover:bg-card ${
+              className={`group bg-background p-10 lg:p-14 transition-all duration-1000 hover:bg-card border border-transparent hover:border-gold/20 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
               style={{ transitionDelay: `${300 + index * 150}ms` }}
             >
-              <div className="text-sage mb-6 transition-transform duration-500 group-hover:scale-110">
+              <div className="text-gold mb-6 transition-transform duration-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]">
                 {service.icon}
               </div>
-              <h3 className="font-serif text-2xl md:text-3xl text-foreground mb-4">{service.title}</h3>
+              <h3 className="font-serif text-2xl md:text-3xl text-foreground mb-4 group-hover:text-gold transition-colors duration-300">{service.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{service.description}</p>
             </div>
           ))}

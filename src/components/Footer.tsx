@@ -5,10 +5,23 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Интеллект Логистик</p>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <div className="flex items-center gap-2 mb-4">
+              <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7 shrink-0">
+                <path d="M6 5 L6 27" stroke="#d4af37" strokeWidth="3" strokeLinecap="round"/>
+                <path d="M11 5 L26 5 L26 16 L11 16 L11 27" stroke="#d4af37" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3 30 Q16 24 29 30" stroke="#d4af37" strokeWidth="1.5" strokeLinecap="round" fill="none"/>
+              </svg>
+              <div>
+                <p className="font-sans font-bold text-sm tracking-[0.15em] uppercase text-foreground leading-tight">Интеллект</p>
+                <p className="font-sans font-light text-xs tracking-[0.2em] uppercase text-gold leading-tight">Логистик</p>
+              </div>
+            </div>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-3">
               Интеллектуальная международная логистика на основе искусственного интеллекта.
             </p>
+            <a href="tel:+79145707006" className="text-gold text-sm font-medium hover:text-gold/80 transition-colors">
+              +7 (914) 570-70-06
+            </a>
           </div>
 
           {/* Navigation */}

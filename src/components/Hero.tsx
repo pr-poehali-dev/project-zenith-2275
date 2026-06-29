@@ -29,7 +29,7 @@ export function Hero() {
           }`}
         >
           Доставка,
-          <span className="block text-sage">которая мыслит</span>
+          <span className="block text-sage italic">которая мыслит</span>
         </h1>
 
         {/* Subheadline */}
@@ -63,7 +63,7 @@ export function Hero() {
           </a>
           <a
             href="#philosophy"
-            className="inline-flex items-center gap-2 px-8 py-4 text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
+            className="inline-flex items-center gap-2 px-8 py-4 text-sm tracking-widest uppercase text-muted-foreground hover:text-sage transition-colors duration-500 border border-border hover:border-sage"
           >
             Как это работает
           </a>

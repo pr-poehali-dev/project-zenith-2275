@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Lumen</p>
+            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Интеллект Логистик</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Интеллектуальная международная логистика на основе искусственного интеллекта.
             </p>
@@ -63,7 +63,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Lumen Logistics. Все права защищены.
+            &copy; {new Date().getFullYear()} Интеллект Логистик. Все права защищены.
           </p>
           <p className="text-xs text-muted-foreground">Доставляем по всему миру</p>
         </div>
